@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(24 59 84);
+}
+.chat-header{
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+    background-color: rgba(0, 0, 255, 0.732);
+    background-position: 0 0;
+    box-shadow: 1px 1px 15px rgb(0, 0, 255, 0.732);
+    /* display: block; */
+    padding: 5px;
+    color: white;
+}
+.chat-bottom{
+    border-bottom: 1px solid black;
+    /* background-color: rgb(229, 246, 212); */
+    /* border: 1px solid red; */
+}
+.container{
+    /* border-top: 1px solid black; */
+    bottom: 0;
+    margin-top: 250px;
+    /* height: 450px; */
+    width: 330px;
+    border: 1px solid black;
+    background-color:white;
+    border: navajowhite;
+    /* bottom: 100px; */
+    float: right;
+}
+#massage{
+    /* border-top: 1px solid rgb(194, 9, 9); */
+    caret-color: black;
+    padding: 10px;
+    border: none;
+    margin-top: 300px;
+    height: 40px;
+    width: 80%;
+    /* border: 2px solid gray; */
+}
+#massage:hover{
+border: none;
+
+}
+#send{
+    background-color: white;
+    align-items: center;
+    /* margin-top: 12px; */
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+}
